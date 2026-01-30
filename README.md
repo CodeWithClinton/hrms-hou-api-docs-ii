@@ -190,35 +190,6 @@ GET /get_active_session_semester/
 }
 ```
 
-> Use this endpoint to determine the **currently selected academic context** for the app.
-
----
-
-## 🔹 Data Shape Notes (Frontend)
-
-### Semester Object
-
-```json
-{
-  "id": 2,
-  "name": "FIRST",
-  "session": "2023/2024",
-  "is_active": true,
-  "created_at": "2025-01-01T10:00:00Z"
-}
-```
-
-### Session Object
-
-```json
-{
-  "id": 1,
-  "name": "2023/2024",
-  "is_active": true
-}
-```
-
-
 
 ---
 
